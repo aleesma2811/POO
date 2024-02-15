@@ -1,0 +1,174 @@
+#.upper: Convertir a mayúscula
+nombre = "El Tío Pepe"
+nombre_mayus = nombre.upper()
+print(nombre_mayus)
+
+#.lower: Convertir a minúscula
+nombre = "EL TÍO PEPE"
+nombre_minus = nombre.lower()
+print(nombre_minus)
+
+#Len: Indica longitud de cadena
+print(len(nombre))
+
+#in/not in: Está o no en el texto
+nombre = "Perry el Ornitorinco"
+print("Perry" not in nombre)
+nombre = "Perry el Ornitorinco"
+print("Perry" in nombre)
+
+
+lyrics = '''
+¡Y esto es lo que traigo de mi costa
+Pa' que todo el mundo lo baile
+Y que nadie se quede sentado porque será multado
+¡Y vámonos todos con el baile costeño pues se va!
+¡Ay!, arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Y arremángala y arrempújala
+¡Si, señor!, el baile costeño
+¡Juy, juy, juy!
+¡Ay!, arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+¡Juy!
+¡Ay!, arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala, sí
+Arremángala, arrempújala, no
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala
+Arremángala, arrempújala, sí
+¡Iuh, iuh! ¡oh, oh!
+'''
+#.count: Contador de palabras
+arremangala = lyrics.count('Arremángala')
+arrempujala = lyrics.count('arrempújala')
+print(f"La palabra Arremángala aparece {arremangala} veces")
+print(f"La palabra arremújala aparece {arrempujala} veces")
+
+#lstrip(): Remover espacios de la izquierda
+string = "Este texto contiene espacios en la izquierda y en la derecha."
+print(string)
+string_izq = string.lstrip()
+print(f"Texto sin espacios a la izquierda: {string_izq}")
+
+#rstrip(): Remover espacios de la derecha
+string_der = string.rstrip()
+print(f"Texto sin espacios a la derecha: {string_der}")
+
+#Replace
+string_og = "HAHAHAHHAHAH"
+string_replace = string_og.replace("A","O")
+print(string_replace)

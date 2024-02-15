@@ -1,0 +1,8 @@
+nombre = input("\nIngrese su nombre: ")
+print(type(nombre))
+
+#Concatenar
+print("Hola " + nombre) 
+
+#f string
+print(f"También se puede imprimir con llaves. Hola {nombre}") 

@@ -1,0 +1,10 @@
+n1 = 8 #Int
+n2 = 5.3 #Float
+
+#TYPE: Indica el tipo de valor
+print(type(n1))
+print(type(n2))
+
+#FLOOR DIVISION: Redondea los decimales al número inferior
+redondeo = n1//n2 
+print (redondeo)
