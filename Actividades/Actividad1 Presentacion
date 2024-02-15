@@ -1,0 +1,8 @@
+#Nombre y edad
+
+nombre = input("¡Hola! Ingrese su nombre: ")
+edad = int(input("Ahora ingrese su edad: "))  #CASTING: Cambiar el tipo de variable ("str" a "int")
+lugar = input("Por último, ingrese el lugar donde nació: ")
+
+print(f"\n¡Hola {nombre}! Usted tiene {edad} años y nació en {lugar}.")
+print(f"En 35 años usted tendrá {edad + 35} años de edad.")
